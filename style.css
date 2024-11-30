@@ -5,6 +5,12 @@
     padding: 0;
     font-family: "Poppins", serif;
 }
+.contaner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 h1{
     text-align: center;
@@ -29,4 +35,13 @@ h1{
     height: 18vh;
     width: 13vw;
     font-size: 50px;
+}
+.resetBtn{
+  width: 9vw;
+  margin-top: 16px;
+  padding: 7px;
+  background-color: red;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 50px;
 }
