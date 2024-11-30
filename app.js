@@ -1,4 +1,5 @@
-let boxes = document.querySelector(".box");
+let boxes = document.querySelectorAll(".box");
+let resetBtn = document.querySelector(".resetBtn")
 let turn =true;
 
 const winPattern=[
