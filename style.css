@@ -14,11 +14,35 @@
 
 h1{
     text-align: center;
+    margin: 25px;
+    font-size: 50px;
+}
+.msg-box{
+    margin-top: 150px;
+    
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 50px;
+}
+
+#new-btn{
+    width: 13rem;
+    margin-top: 16px;
+    padding: 7px;
+    background-color: red;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px;
 }
 .main{
     display: flex;
-    justify-content: center;
-    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;  /* Centers items vertically */
+    align-items: center;      /* Centers items horizontally */
+    height: 70vh; 
 }
 .game{
     /* border: 4px solid black; */
@@ -33,11 +57,11 @@ h1{
 .box{
     
     height: 18vh;
-    width: 13vw;
-    font-size: 8rem;
+    width: 15vw;
+    font-size: 80px;
 }
 .resetBtn{
-  width: 17vw;
+  width: 15vw;
   margin-top: 16px;
   padding: 7px;
   background-color: red;
@@ -48,21 +72,31 @@ h1{
 @media (max-width: 860px){
     .box{
     
-        height: 20vh;
+        height: 15vh;
         width: 25vw;
     }
+    .main{
+        height: 50%;
+
+    }
     .resetBtn{
-        width: 24vw;
+        width: 40vw;
+        font-size: 35px;
       }
 }
 
 @media (max-width: 560px){
+    .contaner h1{
+        font-size: 30px;
+    }
+    
     .box{
     
         height: 15vh;
         width: 25vw;
     }
     .resetBtn{
-        width: 28vw;
+        width: 35vw;
+        font-size: 15px;
       }
 }
