@@ -34,14 +34,35 @@ h1{
     
     height: 18vh;
     width: 13vw;
-    font-size: 50px;
+    font-size: 8rem;
 }
 .resetBtn{
-  width: 9vw;
+  width: 17vw;
   margin-top: 16px;
   padding: 7px;
   background-color: red;
   font-size: 1rem;
   font-weight: 700;
   border-radius: 50px;
+}
+@media (max-width: 860px){
+    .box{
+    
+        height: 20vh;
+        width: 25vw;
+    }
+    .resetBtn{
+        width: 24vw;
+      }
+}
+
+@media (max-width: 560px){
+    .box{
+    
+        height: 15vh;
+        width: 25vw;
+    }
+    .resetBtn{
+        width: 28vw;
+      }
 }
